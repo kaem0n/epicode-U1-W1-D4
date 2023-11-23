@@ -175,8 +175,10 @@ form {
 }
 
 input[type="email"] {
+    font-size: 3.8vw;
+    border: none;
     border-bottom: 1px dotted black;
-    padding: 5px 0;
+    padding: 6px 5px;
     width: 100%;
     margin-right: 5px;
 }
@@ -186,4 +188,5 @@ button {
     color: white;
     border: none;
     font-weight: 600;
+    font-size: 3.8vw;
 }
