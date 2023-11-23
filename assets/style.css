@@ -170,9 +170,20 @@ footer a {
 
 form {
     text-align: center;
+    width: 100%;
+    display: flex;
 }
 
 input[type="email"] {
     border-bottom: 1px dotted black;
     padding: 5px 0;
+    width: 100%;
+    margin-right: 5px;
+}
+
+button {
+    background-color: #3466cc;
+    color: white;
+    border: none;
+    font-weight: 600;
 }
